@@ -1,0 +1,125 @@
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+.l {
+  color: rgb(255, 0, 120);
+  font-size: 20px;
+}
+
+body {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heading {
+  position: relative;
+  top: 10px;
+  background: rgb(255, 103, 31);
+  background: linear-gradient(
+    17deg,
+    rgba(255, 103, 31, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(4, 106, 56, 1) 100%
+  );
+  padding: 24px;
+  display: block;
+  text-align: center;
+  color: #262626;
+  font-size: 1em;
+  border: 1px solid #ff8315;
+  box-shadow: 0px 5px 10px -2px #f69818;
+}
+.heading h1 {
+  margin: 0;
+}
+
+.content {
+  margin: 80px 100px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+}
+img {
+  box-shadow: 6px 6px 4px black;
+}
+
+.content .box-content .box {
+  height: 290px;
+  padding: 22px;
+  box-shadow: 0px 2px 15px -5px #a7a7a7;
+  border-radius: 12px;
+  margin: 40px 0;
+  background-color: #ffffffbf;
+  backdrop-filter: blur(25px);
+}
+
+.box .left {
+  float: left;
+  height: 100%;
+  width: 43%;
+  text-align: center;
+}
+
+.box .left img {
+  border-radius: 10px;
+  width: auto;
+  height: 100%;
+}
+
+.box .right {
+  float: right;
+  overflow: hidden;
+  width: 57%;
+  background-color: #fcfcfc;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.box .right .right-content {
+  padding: 0 25px;
+  margin: 20px 0;
+}
+
+.box .right .right-content h2 {
+  text-transform: uppercase;
+}
+
+.box .right .right-content p {
+  color: #262626;
+}
+
+.footer {
+  height: 60px;
+  padding: 0 20px;
+  position: relative;
+  background: rgb(255, 103, 31);
+  background: linear-gradient(
+    17deg,
+    rgba(255, 103, 31, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(4, 106, 56, 1) 100%
+  );
+  color: #262626;
+  border: 1px solid #ff8315;
+  box-shadow: 0px 2px 10px -2px #f69818;
+}
+
+.footer .footer-left {
+  float: left;
+}
+
+.footer .footer-right {
+  float: right;
+}
+
+.footer h4 {
+  font-weight: 500;
+}
